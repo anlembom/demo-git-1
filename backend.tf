@@ -4,5 +4,6 @@ terraform {
     key    = "demo.tfstate"
     region = "us-west-2"
     profile = "default"
+    dynamodb_table = "terraform-tfstate-lock"	
   }
 }
